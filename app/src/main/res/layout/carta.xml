@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72B59F2D">
+
+    <TextView
+        android:id="@+id/salchipapaid"
+        android:layout_width="135dp"
+        android:layout_height="24dp"
+        android:background="#28FF5722"
+        android:text="Salchipapa $8.50"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.799" />
+
+    <TextView
+        android:id="@+id/monstritoid"
+        android:layout_width="135dp"
+        android:layout_height="24dp"
+        android:background="#28FF5722"
+        android:text="Monstrito $10.50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="85dp"
+        android:layout_height="20dp"
+        android:background="#F44336"
+        android:text="       Menu"
+        android:textStyle="italic"
+        app:drawableTint="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="423dp"
+        android:layout_height="163dp"
+        android:background="#16B59F2D"
+        android:contentDescription="@string/Pollo"
+        android:onClick="Pollo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        app:srcCompat="@drawable/pollo" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="471dp"
+        android:layout_height="124dp"
+        android:background="#72B59F2DF"
+        android:contentDescription="@string/Pollo"
+        android:onClick="Monstrito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        app:srcCompat="@drawable/monstrito" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="339dp"
+        android:layout_height="142dp"
+        android:contentDescription="@string/Pollo"
+        android:onClick="Salchipapa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/salchipapa" />
+
+    <TextView
+        android:id="@+id/Broasterid"
+        android:layout_width="135dp"
+        android:layout_height="24dp"
+        android:background="#28FF5722"
+        android:shadowColor="#F44336"
+        android:text="Broaster $15.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:background="#2FB59F2D"
+        android:src="@drawable/comidas"
+        app:backgroundTint="#2FB59F2D"
+        app:rippleColor="#72B59F2D"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="112dp" />
+|
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="58dp"
+        android:layout_height="51dp"
+        android:background="#2FB59F2D"
+        android:src="@drawable/bebida"
+        app:backgroundTint="#2FB59F2D"
+        app:rippleColor="#72B59F2D"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
